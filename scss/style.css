@@ -52,6 +52,45 @@ a {
   text-decoration: none;
 }
 
+.hero {
+  background-color: #000814;
+  color: white;
+  height: 675px;
+}
+.hero nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.hero nav li {
+  color: white;
+  padding: 18px;
+}
+.hero nav a {
+  color: white;
+}
+.hero nav a:hover {
+  color: #a2d0fc;
+}
+.hero-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+.hero-content img {
+  width: 50%;
+}
+.hero-content h1 {
+  font-size: 45px;
+  line-height: 1.2;
+}
+
 .m-1 {
   margin: 1rem;
 }
@@ -130,6 +169,4 @@ a {
 
 .py-5 {
   padding: 5rem 0;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
